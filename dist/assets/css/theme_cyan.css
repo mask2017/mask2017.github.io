@@ -7664,7 +7664,7 @@ form .help-block {
 }
 .section_banner .banner__iphone {
   width: 100%;
-  max-width: 250px;
+  max-width: 800px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -7704,7 +7704,7 @@ form .help-block {
 }
 .section_features .features__item {
   margin-bottom: 25px;
-  text-align: center;
+  text-align: left;
 }
 .section_features .features__item__icon {
   margin-bottom: 15px;
@@ -7930,6 +7930,16 @@ form .help-block {
     height: 100%;
     width: auto;
   }
+}
+.section_testimonials img {
+  margin: auto;
+}
+.section_testimonials .tab-content {
+  background-color: white;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 .section_testimonials .testimonials__blockquote {
   margin-bottom: 25px;
