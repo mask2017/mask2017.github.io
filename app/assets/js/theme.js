@@ -234,8 +234,8 @@ $(function() {
 
     if ( screenshotsOwlCarousel.length ) {
         screenshotsOwlCarousel.owlCarousel({
-            items: 3,
-            loop: true
+            items: 5,
+            loop: false
         })
     }
 

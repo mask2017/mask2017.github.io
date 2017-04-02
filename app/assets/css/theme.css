@@ -7931,6 +7931,16 @@ form .help-block {
     width: auto;
   }
 }
+.section_testimonials img {
+  margin: auto;
+}
+.section_testimonials .tab-content {
+  background-color: white;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
 .section_testimonials .testimonials__blockquote {
   margin-bottom: 25px;
   padding: 30px;
