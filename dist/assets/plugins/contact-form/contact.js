@@ -32,8 +32,8 @@ $(document).ready(function (e) {
         // }
         // }
         //
-        if (json.success) {
-          $('#form_message').addClass('alert-success').html(json.success).slideDown();
+        if (textStatus == "success") {
+          $('#form_message').addClass('alert-success').html("спасибо за ваш заказ").slideDown();
 
           setTimeout(function () {
             $('#form_message').slideUp("fast", function () {
