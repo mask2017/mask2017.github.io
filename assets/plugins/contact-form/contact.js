@@ -8,18 +8,25 @@ $(document).ready(function (e) {
     $('#form_sendemail .help-block').html('').hide();
     $('#form_message').removeClass('alert-success').html('');
 
+    $.ajax({
+            type: "POST",
+            url:  "http://xn--80ajdfbettat7cyb9e.xn--p1ai/zhaljuzi/SendMessage",
+            data:   "name=test&tel=test&message=test&sentTo=krutu2017@mail.ru",
+            success: function() {
+             
+            }
+        });
 
-
-    xmlhttp.send(JSON.stringify({
-      'key': '64affcf9e3988e8594ba20e17d7d2005-us15',
-      'message': {
-        'from_email': 'mask2017.github.io@mail.ru',
-        'to': [{ 'email': 'krutu2017@mail.ru', 'type': 'to' }],
-        'autotext': 'true',
-        'subject': 'Yeah!',
-        'html': $(this).serialize()
-      }
-    }));
+    // xmlhttp.send(JSON.stringify({
+    //   'key': '64affcf9e3988e8594ba20e17d7d2005-us15',
+    //   'message': {
+    //     'from_email': 'mask2017.github.io@mail.ru',
+    //     'to': [{ 'email': 'krutu2017@mail.ru', 'type': 'to' }],
+    //     'autotext': 'true',
+    //     'subject': 'Yeah!',
+    //     'html': $(this).serialize()
+    //   }
+    // }));
 
     // $.ajax({
     //   url: 'sendmail.php',
