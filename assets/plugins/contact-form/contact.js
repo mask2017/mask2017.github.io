@@ -7,7 +7,7 @@ $(document).ready(function (e) {
     $.ajax({
       url: "https://xn--80ajdfbettat7cyb9e.xn--p1ai/zhaljuzi/SendMessage",
       type: 'POST',
-      data: "name=" + $("#name").val() + "&tel=" + $("#tel").val() + "&message=" + $("#message").val() + "&sentTo=krutu2017@mail.ru",
+      data: "name=" + $("#name").val() + "&tel=" + $("#tel").val() + "&message=" + $("#message").val() + "&sentTo=kas.msk@gmail.com",
       dataType: 'json',
       beforeSend: function (XMLHttpRequest) {
         //
