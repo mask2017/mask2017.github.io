@@ -60,7 +60,7 @@ $(function() {
         }
     });
 
-    $('[href*="#section_"]').on('click', function() {
+    $('[href*="#section_"], .amimatescrol').on('click', function() {
 
         // Close collapsed navbar on click
         navbarCollapse.collapse('hide');
