@@ -8,6 +8,7 @@
 
 // Your Email Address where new emails will be sent to
 $to_email = 'kas.msk@gmail.com';
+$to1_email = 'ak@kkm-trade.ru';
 
 // Email Subject
 $mail_subject = 'Заказ с сайта онлайнкасса';
