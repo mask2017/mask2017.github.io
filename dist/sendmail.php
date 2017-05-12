@@ -28,6 +28,7 @@ if( !isset( $json['error'] ) ) {
     $mail_headers .= "From: {$tel}\r\n";
     // Sending email
     mail( $to_email, $mail_subject, $mail_message, $mail_headers );
+    mail( $to1_email, $mail_subject, $mail_message, $mail_headers );
     $json['success'] = 'Ваше сообщение успешно отправлено!';
 }
 
