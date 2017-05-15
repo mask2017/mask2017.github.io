@@ -29,6 +29,7 @@ if( !isset( $json['error'] ) ) {
     // Sending email
     mail( $to_email, $mail_subject, $mail_message, $mail_headers );
     mail( $to1_email, $mail_subject, $mail_message, $mail_headers );
+    mail( $to2_email, $mail_subject, $mail_message, $mail_headers );
     $json['success'] = 'Ваше сообщение успешно отправлено!';
 }
 
